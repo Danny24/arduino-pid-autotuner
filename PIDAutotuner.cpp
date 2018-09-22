@@ -52,8 +52,6 @@ void PIDAutotuner::startTuningLoop() {
     max = -1000000; // Max input
     min = 1000000; // Min input
     pAverage = iAverage = dAverage = 0;
-
-    sei();
 }
 
 // Run one cycle of the loop
